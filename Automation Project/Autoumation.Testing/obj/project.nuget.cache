@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "F2Tpbr07Ja2ile9WbR5Yv6uRzX8ym0YoRfpLNUPlYy1VnvZJpjT+fr/6r8CjdAkW28ZIV/nC6w5gx6p7VjS0UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William Ward\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\selenium.webdriver.chromedriver\\98.0.4758.10200\\selenium.webdriver.chromedriver.98.0.4758.10200.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.30.0.1\\selenium.webdriver.geckodriver.0.30.0.1.nupkg.sha512",
+    "C:\\Users\\William Ward\\.nuget\\packages\\selenium.webdriver.iedriver\\4.0.0\\selenium.webdriver.iedriver.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
