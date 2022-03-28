@@ -1,0 +1,9 @@
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\bin\Debug\netstandard2.1\Automation.Extensions.deps.json
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\bin\Debug\netstandard2.1\Automation.Extensions.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\bin\Debug\netstandard2.1\Automation.Extensions.pdb
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\obj\Debug\netstandard2.1\Automation.Extensions.csproj.AssemblyReference.cache
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\obj\Debug\netstandard2.1\Automation.Extensions.AssemblyInfoInputs.cache
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\obj\Debug\netstandard2.1\Automation.Extensions.AssemblyInfo.cs
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\obj\Debug\netstandard2.1\Automation.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\obj\Debug\netstandard2.1\Automation.Extensions.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\AutomationExtensions\obj\Debug\netstandard2.1\Automation.Extensions.pdb

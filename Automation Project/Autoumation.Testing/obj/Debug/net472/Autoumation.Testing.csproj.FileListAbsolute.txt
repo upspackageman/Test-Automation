@@ -1,0 +1,17 @@
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Autoumation.Testing.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Autoumation.Testing.pdb
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\WebDriver.Support.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net472\WebDriver.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.csproj.AssemblyReference.cache
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.AssemblyInfoInputs.cache
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.AssemblyInfo.cs
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.csproj.CoreCompileInputs.cache
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.csproj.CopyComplete
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.dll
+C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net472\Autoumation.Testing.pdb

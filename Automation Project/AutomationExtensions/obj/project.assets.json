@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\AutomationExtensions\\Automation.Extensions.csproj",
+      "projectUniqueName": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\AutomationExtensions\\Automation.Extensions.csproj",
       "projectName": "Automation.Extensions",
-      "projectPath": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\AutomationExtensions\\Automation.Extensions.csproj",
+      "projectPath": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\AutomationExtensions\\Automation.Extensions.csproj",
       "packagesPath": "C:\\Users\\William Ward\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\AutomationExtensions\\obj\\",
+      "outputPath": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\AutomationExtensions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\William Ward\\AppData\\Roaming\\NuGet\\NuGet.Config",

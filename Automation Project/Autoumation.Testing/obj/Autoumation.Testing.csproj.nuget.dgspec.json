@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William Ward\\source\\repos\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj": {}
+    "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William Ward\\source\\repos\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj": {
+    "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj",
+        "projectUniqueName": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj",
         "projectName": "Autoumation.Testing",
-        "projectPath": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj",
+        "projectPath": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj",
         "packagesPath": "C:\\Users\\William Ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William Ward\\source\\repos\\Automation Project\\Autoumation.Testing\\obj\\",
+        "outputPath": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\Autoumation.Testing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\William Ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
