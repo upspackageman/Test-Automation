@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Extensions", "AutomationExtensions\Automation.Extensions.csproj", "{E0B8F69C-74DC-4127-9783-255095D7BAFF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{05386FFC-42A0-4E85-88A5-1BF6A3E52EE2} = {05386FFC-42A0-4E85-88A5-1BF6A3E52EE2}
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autoumation.Testing", "Autoumation.Testing\Autoumation.Testing.csproj", "{05386FFC-42A0-4E85-88A5-1BF6A3E52EE2}"
 EndProject
