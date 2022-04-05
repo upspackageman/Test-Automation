@@ -62,128 +62,128 @@ namespace Autoumation.Testing
 
         //}
 
-        //[TestMethod]
-        //public void WebDriverFactoryTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
-        //    driver.Manage().Window.Maximize();
+        [TestMethod]
+        public void WebDriverFactoryTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+            driver.Manage().Window.Maximize();
 
-        //    driver.Navigate().GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    var elem = driver.FindElement(By.XPath("//*[@id='SelectedDepartment']"));
-        //    var selectElement = new SelectElement(elem);
-        //    selectElement.SelectByValue("1");
+            driver.Navigate().GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            var elem = driver.FindElement(By.XPath("//*[@id='SelectedDepartment']"));
+            var selectElement = new SelectElement(elem);
+            selectElement.SelectByValue("1");
 
-        //    Thread.Sleep(10000);
-        //    driver.Dispose();
-        //}
+            Thread.Sleep(10000);
+            driver.Dispose();
+        }
 
-        //[TestMethod]
-        //public void GoToUrlTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
-         
-
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    var elem = driver.FindElement(By.XPath("//*[@id='SelectedDepartment']"));
-        //    var selectElement = new SelectElement(elem);
-        //    selectElement.SelectByValue("1");
-
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
-
-        //[TestMethod]
-        //public void GetElementTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+        [TestMethod]
+        public void GoToUrlTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
 
 
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    driver.GetElement(By.XPath("//*[@id='SelectedDepartment']")).Click();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            var elem = driver.FindElement(By.XPath("//*[@id='SelectedDepartment']"));
+            var selectElement = new SelectElement(elem);
+            selectElement.SelectByValue("1");
 
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
 
-
-        //[TestMethod]
-        //public void ASSelectTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
-
-
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    driver.FindElement(By.XPath("//*[@id='SelectedDepartment']")).AsSelect().SelectByValue("4");
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
-
-        //[TestMethod]
-        //public void GetElementsTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+        [TestMethod]
+        public void GetElementTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
 
 
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    driver.GetElements(By.XPath("//ul/li"));
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            driver.GetElement(By.XPath("//*[@id='SelectedDepartment']")).Click();
 
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
-
-        //[TestMethod]
-        //public void GetVisibleElementTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
-
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    driver.GetVisibleElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a")).Click();
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
-
-        //[TestMethod]
-        //public void GetVisibleElementsTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
 
 
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    driver.GetElements(By.XPath("//ul/li"));
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
+        [TestMethod]
+        public void ASSelectTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
 
-        //[TestMethod]
-        //public void GetEnabledElementTest()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
 
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    Thread.Sleep(3000);
-        //    driver.GetVisibleElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a")).Click();
-        //    driver.GetEnabledElement(By.XPath("/html/body/div/main/form/div/p/input[1]")).SendKeys("YO HO HO!!!!! ");
-        //    Thread.Sleep(3000);
-        //    driver.Dispose();
-        //}
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            driver.FindElement(By.XPath("//*[@id='SelectedDepartment']")).AsSelect().SelectByValue("4");
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
 
-        //[TestMethod]
-        //public void VerticalWindowScrollSample()
-        //{
-        //    var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
-        //    driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
-        //    driver.Manage().Window.Size = new Size(400, 400);
-        //    driver.VerticalWindowScroll(0);
-        //    Thread.Sleep(10000);
-        //    driver.Dispose();
-        //}
+        [TestMethod]
+        public void GetElementsTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+
+
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            driver.GetElements(By.XPath("//ul/li"));
+
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
+
+        [TestMethod]
+        public void GetVisibleElementTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            driver.GetVisibleElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a")).Click();
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
+
+        [TestMethod]
+        public void GetVisibleElementsTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+
+
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            driver.GetElements(By.XPath("//ul/li"));
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
+
+        [TestMethod]
+        public void GetEnabledElementTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            Thread.Sleep(3000);
+            driver.GetVisibleElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a")).Click();
+            driver.GetEnabledElement(By.XPath("/html/body/div/main/form/div/p/input[1]")).SendKeys("YO HO HO!!!!! ");
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
+
+        [TestMethod]
+        public void VerticalWindowScrollSample()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Course");
+            driver.Manage().Window.Size = new Size(400, 400);
+            driver.VerticalWindowScroll(0);
+            Thread.Sleep(10000);
+            driver.Dispose();
+        }
 
         [TestMethod]
         public void ActionsTest()
@@ -197,6 +197,63 @@ namespace Autoumation.Testing
             Thread.Sleep(3000);
             driver.Dispose();
         }
+
+        [TestMethod]
+        public void ForcClickTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+
+            driver.Manage().Window.Maximize();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/");
+            Thread.Sleep(3000);
+            driver.GetElement(By.XPath("/html/body/header/nav/div/div/ul/li[3]/a")).ForceClick();
+
+            Thread.Sleep(3000);
+            driver.Dispose();
+        }
+
+        [TestMethod]
+        public void SendKeysIntervalTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+            driver.Manage().Window.Maximize();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Student");
+            driver.GetEnabledElement(By.XPath("/html/body/div/main/form/div/p/input[1]")).SendKeys("DUUDE!!!!!!!", 2000);
+            Thread.Sleep(3000);
+            driver.Dispose();
+
+        }
+
+        [TestMethod]
+        public void ForceClearTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+            driver.Manage().Window.Maximize();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Student");
+            var element = driver.GetEnabledElement(By.XPath("/html/body/div/main/form/div/p/input[1]"));
+            element.SendKeys("DUUDE!!!!!!!", 0);
+            element.SendKeys(Keys.Home);
+            element.ForceClear();
+            Thread.Sleep(3000);
+            driver.Dispose();
+
+        }
+
+
+        [TestMethod]
+        public void SubmitFormTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "edge", Binaries = @"C:\Users\William Ward\source\repos\Test-Automation\Automation Project\web-driver" }).Get();
+            driver.Manage().Window.Maximize();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Student");
+            driver.GetEnabledElement(By.XPath("/html/body/div/main/form/div/p/input[1]")).SendKeys("DUUDE!!!!!!!", 2000);
+            driver.SubmitForm(0);
+            Thread.Sleep(3000);
+            driver.Dispose();
+
+        }
+
+
     }
 
 

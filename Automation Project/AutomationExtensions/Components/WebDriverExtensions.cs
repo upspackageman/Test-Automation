@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Automation.Extensions.Components
@@ -87,6 +88,51 @@ namespace Automation.Extensions.Components
             var actions = new Actions(driver);
             return actions.MoveToElement(element);
         }
+
+        public static IWebElement ForceClick(this IWebElement element)
+        {
+            var driver = ((IWrapsDriver)element).WrappedDriver;
+            var executor = (IJavaScriptExecutor)driver;
+            executor.ExecuteScript("arguments[0].click();", element);
+            return element;
+        }
+
+        public static IWebElement SendKeys(this IWebElement element, string text, int interval)
+        {
+            foreach(var @char in text)
+            {
+                element.SendKeys($"{@char}");
+                Thread.Sleep(interval);
+            }
+            return element;
+        }
+
+        public static IWebElement ForceClear(this IWebElement element)
+        {
+            var value = element.GetAttribute("value");
+            element.SendKeys(Keys.End);
+            for (int i = 0; i < value.Length; i++)
+            {
+                element.SendKeys(Keys.Backspace);
+                Thread.Sleep(50);
+            }
+            return element;
+           
+        }
+
+        public static IWebDriver SubmitForm(this IWebDriver driver, int index)
+        {
+            ((IJavaScriptExecutor)driver).ExecuteScript($"document.forms[{index}].submit()");
+            return driver;
+        }
+
+        public static IWebDriver SubmitForm(this IWebDriver driver, string id)
+        {
+            ((IJavaScriptExecutor)driver).ExecuteScript($"document.forms[\"{id}\"].submit()");
+            return driver;
+        }
+
+
 
     }
 }
