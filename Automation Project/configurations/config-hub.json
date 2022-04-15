@@ -1,0 +1,15 @@
+{
+	"host": "localhost",
+	"maxSessions": 5,
+	"port": 4444,
+	"cleanupCycle": 5000,
+	"timeout": 30000,
+	"newSessionsWaitTimeout": -1,
+	"capabilityMactcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+	"throwOnCapabilityNotPresent": true,
+	"nodePolling": 180000,
+	"servlets":[],
+	"prioritizer": null,
+	"platform": "WIN10"
+
+}

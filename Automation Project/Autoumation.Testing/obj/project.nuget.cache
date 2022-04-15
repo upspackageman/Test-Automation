@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "THGe38d4KMg5wkVXAQuwTrBoJ1Ia2vTXOAJG23fyzrXLYHYQ2kPnf7DF9rkzqyKGAZWxAVdlFa0DUXM0T5d66Q==",
+  "dgSpecHash": "zhO1TciYeELFrJPfZy3auMHRU6/7ihf6fjbH+Wz/7vdE+qGHScutMkr5vYLbFs8rNL1QCNgMlSa4FImL/p2xog==",
   "success": true,
   "projectFilePath": "C:\\Users\\William Ward\\source\\repos\\Test-Automation\\Automation Project\\Autoumation.Testing\\Autoumation.Testing.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\William Ward\\.nuget\\packages\\automation.extensions\\1.0.0\\automation.extensions.1.0.0.nupkg.sha512",
     "C:\\Users\\William Ward\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\William Ward\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\William Ward\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",

@@ -253,6 +253,19 @@ namespace Autoumation.Testing
 
         }
 
+        [TestMethod]
+        public void SubmitFormRemoteTest()
+        {
+            var driver = new WebDriverFactory(new DriverParams { Driver = "chrome", Binaries = "http://localhost:4444/wd/hub", Source = "remote" }).Get();
+            driver.Manage().Window.Maximize();
+            driver.GoToUrl("https://gravitymvctestapplication.azurewebsites.net/Student");
+            driver.GetEnabledElement(By.XPath("/html/body/div/main/form/div/p/input[1]")).SendKeys("DUUDE!!!!!!!", 2000);
+            driver.SubmitForm(0);
+            Thread.Sleep(3000);
+            driver.Dispose();
+
+        }
+
 
     }
 

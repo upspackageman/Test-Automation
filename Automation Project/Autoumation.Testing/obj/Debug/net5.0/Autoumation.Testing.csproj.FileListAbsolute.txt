@@ -89,7 +89,6 @@ C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumatio
 C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net5.0\Automation.Extensions.dll
-C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\bin\Debug\net5.0\Automation.Extensions.pdb
 C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net5.0\Autoumation.Testing.csproj.AssemblyReference.cache
 C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net5.0\Autoumation.Testing.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\William Ward\source\repos\Test-Automation\Automation Project\Autoumation.Testing\obj\Debug\net5.0\Autoumation.Testing.AssemblyInfoInputs.cache

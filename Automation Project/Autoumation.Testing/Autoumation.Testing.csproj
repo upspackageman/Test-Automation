@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Automation.Extensions" Version="1.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
@@ -15,10 +16,6 @@
     <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.30.0.1" />
     <PackageReference Include="Selenium.WebDriver.IEDriver" Version="4.0.0" />
     <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="99.0.1150.46" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\AutomationExtensions\Automation.Extensions.csproj" />
   </ItemGroup>
 
 </Project>

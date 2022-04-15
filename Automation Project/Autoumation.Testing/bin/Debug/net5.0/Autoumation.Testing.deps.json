@@ -23,6 +23,19 @@
           "Autoumation.Testing.dll": {}
         }
       },
+      "Automation.Extensions/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver.MSEdgeDriver": "99.0.1150.46"
+        },
+        "runtime": {
+          "lib/net5.0/Automation.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "coverlet.collector/1.3.0": {},
       "Microsoft.CodeCoverage/16.7.1": {
         "runtime": {
@@ -1032,16 +1045,6 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
-      },
-      "Automation.Extensions/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "Selenium.Support": "3.141.0",
-          "Selenium.WebDriver.MSEdgeDriver": "99.0.1150.46"
-        },
-        "runtime": {
-          "Automation.Extensions.dll": {}
-        }
       }
     }
   },
@@ -1050,6 +1053,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Automation.Extensions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YtpMtl34tiy+uRoKbG/JcU51VH2cqiTRxRoR6HpvniGAxrV22c/0jXmD2sfpZA+uooVHFAwDi2bffO5tzNcRzg==",
+      "path": "automation.extensions/1.0.0",
+      "hashPath": "automation.extensions.1.0.0.nupkg.sha512"
     },
     "coverlet.collector/1.3.0": {
       "type": "package",
@@ -1680,11 +1690,6 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
-    },
-    "Automation.Extensions/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
